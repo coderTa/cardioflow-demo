@@ -1,0 +1,113 @@
+CardioFlow
+Copyright (c) 2025-2026 Benjamin Ta
+
+This repository holds material under more than one set of terms. The source
+code and the bundled anatomical meshes did not come from the same place and
+cannot be covered by one licence, so each is stated separately below.
+
+Nothing here is a medical device. CardioFlow is an educational simulation built
+on simplified physiological models, and no licence granted below should be read
+as a warranty that any output is clinically valid.
+
+
+================================================================================
+1. THE SOURCE CODE
+================================================================================
+
+All rights reserved.
+
+This covers everything written for this project: the physiology engine under
+packages/engine, the web application under apps/web, the reference service
+under services/api, the asset build scripts under tools/, and the test suites.
+
+No open-source licence has been chosen for it yet. Until one is, the code is
+under ordinary copyright and carries no grant of use, copying, modification or
+redistribution beyond what applicable law allows without permission.
+
+The physiological models the code implements are published science and are not
+claimed here. Each one is cited at the point it is used and again in the
+assumption register at packages/engine/src/models/assumptions.ts, which names
+the paper every constant and every curve came from. Luo and Rudy's ionic model,
+Dower's transform, Severinghaus's dissociation curve, Murray's law and the rest
+belong to their authors. What is covered above is this implementation of them.
+
+
+================================================================================
+2. THE ANATOMICAL MESHES  (apps/web/public/anatomy/)
+================================================================================
+
+These files are adapted from two external datasets and remain under those
+datasets' licences. Section 1 does not apply to them.
+
+
+2a. BodyParts3D  --  CC Attribution-Share Alike 2.1 Japan
+--------------------------------------------------------------------------------
+
+Covers: cardiovascular.glb, cerebral.glb, and every organ and vessel mesh
+within them.
+
+    BodyParts3D, (c) The Database Center for Life Science, licensed under
+    CC Attribution-Share Alike 2.1 Japan.
+
+    Source:  https://dbarchive.biosciencedbc.jp/data/bodyparts3d/LATEST
+    Licence: https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en
+
+The .glb bundles in this repository are adapted material. They were decimated,
+welded, Draco-compressed and transformed into the simulator's coordinate frame
+by tools/anatomy/build.mjs, which records the download URL, the simplification
+targets and the transform so that the result can be reproduced rather than
+taken on trust.
+
+SHARE-ALIKE: because they are adapted material, those bundles are distributed
+under the same CC BY-SA 2.1 Japan licence as the originals. Anyone
+redistributing them, or any further adaptation of them, must do the same and
+must carry the attribution above. This obligation attaches to the meshes alone.
+It does not reach the source code, which is a separate work that loads them.
+
+The attribution is also shown in the running application, as required by a
+licence that asks for credit reasonable to the medium: in full on the About
+page, and compactly on every scene that draws the meshes.
+
+
+2b. HuBMAP CCF 3D Reference Object Library  --  CC BY 4.0
+--------------------------------------------------------------------------------
+
+Covers: surface-female.glb, surface-male.glb, lung-female.glb, lung-male.glb.
+
+    Kristen Browne, Heidi Schlehlein, Bruce W. Herr II, Ellen Quardokus,
+    Andreas Bueckle, Katy Borner. 2024. HuBMAP CCF 3D Reference Object
+    Library. humanatlas.io/3d-reference-library. Licensed CC BY 4.0.
+
+    Source:  https://humanatlas.io/3d-reference-library
+    Licence: https://creativecommons.org/licenses/by/4.0/
+
+Attribution only, with no share-alike obligation. A second source was needed
+because BodyParts3D contains exactly one body, an adult male, so drawing every
+subject with it would have shown half of them the wrong body. It also has no
+lung parenchyma at all, filing only the bronchi and pulmonary vessels under
+that name.
+
+
+================================================================================
+3. THE DRACO DECODER  (apps/web/public/draco/)
+================================================================================
+
+draco_decoder.js, draco_decoder.wasm and draco_wasm_wrapper.js are Google's
+Draco mesh decoder, redistributed unmodified so that the browser can read the
+compressed meshes without fetching them from a third-party CDN.
+
+    Copyright The Draco Authors
+    Licensed under the Apache License, Version 2.0
+    http://www.apache.org/licenses/LICENSE-2.0
+    Source: https://github.com/google/draco
+
+Section 1 does not apply to them.
+
+
+================================================================================
+4. NPM DEPENDENCIES
+================================================================================
+
+Everything under node_modules is third-party and governed by its own package's
+licence. None of it is covered by this file, and none of it is redistributed
+here: package.json and package-lock.json name what is installed.

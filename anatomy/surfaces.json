@@ -1,0 +1,82 @@
+{
+  "attribution": "Body surfaces and lungs: Kristen Browne, Heidi Schlehlein, Bruce W. Herr II, Ellen Quardokus, Andreas Bueckle, Katy Börner. 2024. HuBMAP CCF 3D Reference Object Library. humanatlas.io/3d-reference-library. Licensed CC BY 4.0.",
+  "license": "CC BY 4.0",
+  "surfaces": [
+    {
+      "id": "surface-female",
+      "sex": "female",
+      "file": "surface-female.glb",
+      "bytes": 42032,
+      "skeleton": {
+        "shoulderY": 3.5000000000000004,
+        "armSplitY": 1.5999999999999988,
+        "elbowY": 1.4499999999999988,
+        "wristY": -0.2000000000000015,
+        "crotchY": -1.1500000000000004,
+        "shoulderX": 0.7184198498725891,
+        "elbowX": 1.5842077136039734,
+        "wristX": 2.552576780319214,
+        "hipX": 0.6727096885442734,
+        "kneeX": 0.7888345718383789,
+        "ankleX": 0.8352837264537811
+      },
+      "organs": {
+        "lungs": {
+          "id": "lung-female",
+          "file": "lung-female.glb",
+          "bytes": 46520,
+          "bounds": {
+            "lo": [
+              -0.7482733726501465,
+              1.9723361730575562,
+              -0.5907834768295288
+            ],
+            "hi": [
+              0.7588229775428772,
+              3.310809373855591,
+              0.3250209093093872
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "surface-male",
+      "sex": "male",
+      "file": "surface-male.glb",
+      "bytes": 42124,
+      "skeleton": {
+        "shoulderY": 3.5000000000000004,
+        "armSplitY": 1.5999999999999988,
+        "elbowY": 1.4499999999999988,
+        "wristY": 0.09999999999999842,
+        "crotchY": -0.8500000000000002,
+        "shoulderX": 0.7225489616394043,
+        "elbowX": 1.6129653453826904,
+        "wristX": 2.4721676111221313,
+        "hipX": 0.75005853921175,
+        "kneeX": 0.8672293350100517,
+        "ankleX": 1.0848195254802704
+      },
+      "organs": {
+        "lungs": {
+          "id": "lung-male",
+          "file": "lung-male.glb",
+          "bytes": 51964,
+          "bounds": {
+            "lo": [
+              -0.6692799925804138,
+              2.1190662384033203,
+              -0.4779472351074219
+            ],
+            "hi": [
+              0.7527559399604797,
+              3.3751115798950195,
+              0.5619915723800659
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

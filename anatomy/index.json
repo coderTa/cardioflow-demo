@@ -1,0 +1,310 @@
+{
+  "attribution": "BodyParts3D, © The Database Center for Life Science, licensed under CC Attribution-Share Alike 2.1 Japan.",
+  "license": "CC BY-SA 2.1 JP",
+  "source": "https://dbarchive.biosciencedbc.jp/data/bodyparts3d/LATEST/partof_BP3D_4.0_obj_99.zip",
+  "systems": [
+    {
+      "id": "cardiovascular",
+      "label": "Cardiovascular",
+      "summary": "The heart, the great vessels, and the organs whose supply is simulated.",
+      "file": "cardiovascular.glb",
+      "bytes": 516756,
+      "structures": [
+        {
+          "id": "lv",
+          "label": "Left ventricle",
+          "group": "chamber",
+          "organ": "heart"
+        },
+        {
+          "id": "rv",
+          "label": "Right ventricle",
+          "group": "chamber",
+          "organ": "heart"
+        },
+        {
+          "id": "la",
+          "label": "Left atrium",
+          "group": "chamber",
+          "organ": "heart"
+        },
+        {
+          "id": "ra",
+          "label": "Right atrium",
+          "group": "chamber",
+          "organ": "heart"
+        },
+        {
+          "id": "aorta",
+          "label": "Aorta",
+          "group": "artery"
+        },
+        {
+          "id": "pulmonary-trunk",
+          "label": "Pulmonary trunk",
+          "group": "artery"
+        },
+        {
+          "id": "svc",
+          "label": "Superior vena cava",
+          "group": "vein"
+        },
+        {
+          "id": "ivc",
+          "label": "Inferior vena cava",
+          "group": "vein"
+        },
+        {
+          "id": "pv-ris",
+          "label": "Right superior pulmonary vein",
+          "group": "vein"
+        },
+        {
+          "id": "pv-rii",
+          "label": "Right inferior pulmonary vein",
+          "group": "vein"
+        },
+        {
+          "id": "pv-lis",
+          "label": "Left superior pulmonary vein",
+          "group": "vein"
+        },
+        {
+          "id": "pv-lii",
+          "label": "Left inferior pulmonary vein",
+          "group": "vein"
+        },
+        {
+          "id": "lca",
+          "label": "Left coronary artery",
+          "group": "coronary"
+        },
+        {
+          "id": "rca",
+          "label": "Right coronary artery",
+          "group": "coronary"
+        },
+        {
+          "id": "brain",
+          "label": "Brain",
+          "group": "organ",
+          "organ": "brain"
+        },
+        {
+          "id": "lung-l",
+          "label": "Left pulmonary vessels",
+          "group": "pulmonary",
+          "organ": "lungs"
+        },
+        {
+          "id": "lung-r",
+          "label": "Right pulmonary vessels",
+          "group": "pulmonary",
+          "organ": "lungs"
+        },
+        {
+          "id": "liver",
+          "label": "Liver",
+          "group": "organ",
+          "organ": "liver"
+        },
+        {
+          "id": "kidney-l",
+          "label": "Left kidney",
+          "group": "organ",
+          "organ": "kidneys"
+        },
+        {
+          "id": "kidney-r",
+          "label": "Right kidney",
+          "group": "organ",
+          "organ": "kidneys"
+        },
+        {
+          "id": "stomach",
+          "label": "Stomach",
+          "group": "organ",
+          "organ": "gut"
+        },
+        {
+          "id": "small-intestine",
+          "label": "Small intestine",
+          "group": "organ",
+          "organ": "gut"
+        },
+        {
+          "id": "large-intestine",
+          "label": "Large intestine",
+          "group": "organ",
+          "organ": "gut"
+        },
+        {
+          "id": "pancreas",
+          "label": "Pancreas",
+          "group": "organ",
+          "organ": "gut"
+        },
+        {
+          "id": "skin",
+          "label": "Body surface",
+          "group": "surface"
+        },
+        {
+          "id": "trachea",
+          "label": "Trachea",
+          "group": "airway"
+        }
+      ]
+    },
+    {
+      "id": "cerebral",
+      "label": "Cerebral",
+      "summary": "The arteries blood reaches the brain by, and the brain they reach.",
+      "file": "cerebral.glb",
+      "bytes": 231316,
+      "structures": [
+        {
+          "id": "cca-r",
+          "label": "Right common carotid",
+          "group": "artery"
+        },
+        {
+          "id": "cca-l",
+          "label": "Left common carotid",
+          "group": "artery"
+        },
+        {
+          "id": "ica-r",
+          "label": "Right internal carotid",
+          "group": "artery"
+        },
+        {
+          "id": "ica-l",
+          "label": "Left internal carotid",
+          "group": "artery"
+        },
+        {
+          "id": "va-r",
+          "label": "Right vertebral",
+          "group": "artery"
+        },
+        {
+          "id": "va-l",
+          "label": "Left vertebral",
+          "group": "artery"
+        },
+        {
+          "id": "basilar",
+          "label": "Basilar artery",
+          "group": "artery"
+        },
+        {
+          "id": "willis",
+          "label": "Circle of Willis",
+          "group": "artery"
+        },
+        {
+          "id": "acom",
+          "label": "Anterior communicating",
+          "group": "artery"
+        },
+        {
+          "id": "pcom-r",
+          "label": "Right posterior communicating",
+          "group": "artery"
+        },
+        {
+          "id": "pcom-l",
+          "label": "Left posterior communicating",
+          "group": "artery"
+        },
+        {
+          "id": "mca-r",
+          "label": "Right middle cerebral",
+          "group": "artery"
+        },
+        {
+          "id": "mca-l",
+          "label": "Left middle cerebral",
+          "group": "artery"
+        },
+        {
+          "id": "aca-r",
+          "label": "Right anterior cerebral",
+          "group": "artery"
+        },
+        {
+          "id": "aca-l",
+          "label": "Left anterior cerebral",
+          "group": "artery"
+        },
+        {
+          "id": "pca-r",
+          "label": "Right posterior cerebral",
+          "group": "artery"
+        },
+        {
+          "id": "pca-l",
+          "label": "Left posterior cerebral",
+          "group": "artery"
+        },
+        {
+          "id": "lsa-r",
+          "label": "Right lenticulostriates",
+          "group": "artery"
+        },
+        {
+          "id": "lsa-l",
+          "label": "Left lenticulostriates",
+          "group": "artery"
+        },
+        {
+          "id": "achor-r",
+          "label": "Right anterior choroidal",
+          "group": "artery"
+        },
+        {
+          "id": "achor-l",
+          "label": "Left anterior choroidal",
+          "group": "artery"
+        },
+        {
+          "id": "hemisphere-r",
+          "label": "Right hemisphere",
+          "group": "organ",
+          "organ": "brain"
+        },
+        {
+          "id": "hemisphere-l",
+          "label": "Left hemisphere",
+          "group": "organ",
+          "organ": "brain"
+        },
+        {
+          "id": "cerebellum",
+          "label": "Cerebellum",
+          "group": "organ",
+          "organ": "brain"
+        },
+        {
+          "id": "pons",
+          "label": "Pons",
+          "group": "organ",
+          "organ": "brain"
+        },
+        {
+          "id": "midbrain",
+          "label": "Midbrain",
+          "group": "organ",
+          "organ": "brain"
+        },
+        {
+          "id": "medulla",
+          "label": "Medulla oblongata",
+          "group": "organ",
+          "organ": "brain"
+        }
+      ]
+    }
+  ]
+}

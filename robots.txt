@@ -1,0 +1,7 @@
+User-Agent: *
+Allow: /
+Disallow: /import
+Disallow: /account
+Disallow: /api/
+
+Sitemap: https://coderta.github.io/cardioflow-demo/sitemap.xml
