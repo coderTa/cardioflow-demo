@@ -1,2 +1,2 @@
-:HL["/cardioflow-demo/_next/static/chunks/1fvgp1sl_t3v9.css","style"]
-0:{"tree":{"name":"","param":null,"prefetchHints":4176,"slots":{"children":{"name":"/_not-found","param":null,"prefetchHints":4192,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}}}},"staleTime":300,"buildId":"sLjsrh6prS8Ce9pfp47zn"}
+:HL["/cardioflow-demo/_next/static/chunks/2nry07r2s9rnf.css","style"]
+0:{"tree":{"name":"","param":null,"prefetchHints":4176,"slots":{"children":{"name":"/_not-found","param":null,"prefetchHints":4192,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}}}},"staleTime":300,"buildId":"pRz8NsmEu01XasJ-wWN1j"}
